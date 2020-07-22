@@ -1,0 +1,26 @@
+
+.culculator
+  %h1　BMI計算機やで！！！！
+  .height
+    実のところを言うと私の身長(cm)は
+    %input{type: "number", id: "height"}
+    です。
+  %br
+  .weight
+    お恥ずかしながら私の体重(kg)は
+    %input{type: "number", id: "weight"}
+    です。
+  %br
+  .culc
+    %input{type: "button", value: "さあBMIを計算するで！", id: "calc"}
+  %br
+  .bmi
+    あんたのBMIは
+    %input{type: "number", id: "price"}
+    やで！！！
+  .reload　
+  %input{type: "button", value: "再計算", id: "reload"}
+  .images
+    = image_tag("a007.png", id: 'image1')
+    = image_tag("ajisaiframe8.png", id: 'image2')
+    = image_tag("hand_syoudoku_soap.png", id: 'image3')

@@ -1,0 +1,63 @@
+.culculator{
+  text-align: center;
+
+  h1{
+    margin-bottom: 20px;
+  }
+
+
+.height{
+  font-size: 20px;
+}
+
+.weight{
+  font-size: 20px;
+}
+
+.culc{
+  font-size: 20px;
+  input{
+    font-size: 20px;
+    height: 50px;
+  }
+}
+
+.bmi{
+  font-size: 20px;
+}
+
+.reload{
+  #reload{
+
+  }
+}
+
+.images{
+  position: relative;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  #image1{
+    display: none;
+    width: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  #image2{
+    width: 200px;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  #image3{
+    display: none;
+    width: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+ }
+}
