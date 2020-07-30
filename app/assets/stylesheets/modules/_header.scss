@@ -1,0 +1,35 @@
+.header{
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__content{
+    width: 800px;
+    height: 100px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__left{
+      height: 100px;
+      #etpur_logo{
+      height: 100px;
+      }
+      
+      }
+    &__middle{
+      margin-right: 200px;
+      width: 400px;
+      font-size: 30px;
+      font-weight: bolder;
+    }
+    
+    &__right{
+    
+   
+    text{
+      font-size: 20px;
+    }
+    }
+    }
+  }  
